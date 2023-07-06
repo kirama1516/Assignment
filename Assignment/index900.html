@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Bootstrap CDN-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNH0E263XmFcJISAwiGgFAW/dAis6JXm"
+     crossorigin="anonymous">
+ <!--Fontawesome-->
+ <script src="https://kit.fontawesome.com/4d0b4c932e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" /> 
+    <title>page9</title>
+</head>
+<style>
+     h1{
+        color: darkred;
+        text-align: center;
+        font-size: 90px;
+        text-shadow: 3px 2px rgba(0, 0, 0, 0.724);
+    }
+    .glass{
+        height: 680px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 32px;
+    }
+    body{
+        background-image: url('./images/IT.jpg');
+        padding: 15px
+    }
+    p{
+        text-align: center;
+        color:green;
+        font-size: 50px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: rgb(149, 197, 6);
+    }
+    .button2{
+        float: right;
+        margin: 15px 45px 0px 10px;
+        padding: 10px;
+    }
+    .button1{
+        float: left;
+        margin: 15px 45px 0px 10px;
+        padding: 10px;
+    }
+    .hover-effect1 {
+        min-height: 20px;
+        background: #F44336;
+        text-align: center;
+    }
+    .hover-effect1 ul {
+        padding-top: 1px;
+    }
+    .hover-effect1 ul li {
+        display: inline-block;
+    }
+    .hover-effect1 ul li a {
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+        margin: 0px 10px;
+        line-height: 50px;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background: #dc3545;
+        -webkit-transition: all .6s ease;
+        -moz-transition: all .6s ease;
+        -ms-transition: all .6s ease;
+        -o-transition: all .6s ease;
+        transition: all .6s ease;
+    }
+    .hover-effect1 ul li:hover a {
+        border-radius: 50%;
+        background: #dc3545;
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    footer{
+        background-color: rgba(3, 65, 275, 0.993);
+        color: black;
+        clear: both;
+        text-align: center;
+        padding: 10px;
+    }
+    #rcorners{
+        border-radius: 50px 50px 50px 50px;
+    }    
+</style>
+<body>
+    <form action="result2.html" method="GET" enctype="multipart/form-data"> 
+    <fieldset class="glass">
+    <h1>THANK YOU!</h1>
+    <p><i style="font-family: Georgia, 'Times New Roman', Times, serif;">If you want more information you can contact us in WHATSAPP, FACEBOOK, INSTAGRAM and TWITTER.</i></p>
+    <p>WEBSITE</p>
+<!--Social buttons -->
+<div class="hover-effect1">
+    <ul style="background-color: #b3b3cc;" class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+            <a href="http://www.facebook.com/Abdullahi Farouk Adam" title="Facebook"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="http://www.Instagram.com/abdallah_f_a" title="Instagram"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="http://www.youtube.com/@abdullahifarukadam" title="Youtube"><i class="fa fa-youtube"></i></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="http://www.twitter.com/@kirama" title="Twitter"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="#." title="Github"><i class="fa fa-github"></i></a>
+        </li>
+    </ul>
+</div>
+<div class="button1">
+    <button id="rcorners" style="background-color:  rgba(3, 65, 275, 0.993); font-size: 20px;" type="previous"><a href="index800.html" style="color: yellow;">PREVIOUS</a></button>
+</div>
+<div class="button2">
+    <button id="rcorners" style="background-color:  rgba(3, 65, 275, 0.993); font-size: 20px; color: yellow;" type="submit">SUBMIT</button>
+</div>
+<div>
+    <footer id="rcorners" >Copyright © W3Schools.com</footer>
+</div>
+    </fieldset>
+    </form>
+</body>
+</html>

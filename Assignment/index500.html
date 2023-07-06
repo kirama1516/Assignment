@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page5</title>
+</head> 
+<style>
+    body{
+        background-image: url('./images/IT.jpg');
+        padding: 15px;
+    }
+    div{
+        font-size: 20px;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 15px;
+    }
+    th{
+        background-color:  rgba(3, 65, 275, 0.993);
+        padding: 10px 10% 10px 10px;
+        margin: 10px  10% 10px 10px;
+        border-radius: 20px 20px 20px 20px;
+    } 
+    tr:nth-child(odd){
+        background-color: rgba(92, 107, 124, 0.622);
+        padding: 80px;
+    }
+    .button{
+            float: right;
+        }
+    li::marker {
+        content: '💥';
+        font-size: 1em ;
+    }    
+    h1{
+        text-align: center; 
+        font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+        font-size: 45px;
+        color: rgb(118, 8, 8);
+        text-shadow: 3px 2px rgba(0, 0, 0, 0.724);
+    }
+    h2{
+        color: rgb(118, 8, 8);
+        font-size: 35px;
+    }
+    mark{
+        background-color:  rgba(3, 65, 275, 0.993);
+        padding: 20px 25px 20px 20px;
+        color:yellow;
+        text-shadow: 4px 2px black;
+        box-shadow: 10px 10px rgba(0, 0, 0, 0.864);
+    }
+    .glass{
+        height: 912px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 32px;
+    }
+    #rcorners{
+        border-radius: 50px 50px 50px 50px;
+    }
+    #rcorner{
+        border-radius: 5px 50px 50px 5px;
+    }
+    tr{
+        color: rgb(15, 221, 145);
+    }
+</style>
+<body>
+    <form action="result2.html" method="GET" enctype="multipart/form-data"> 
+        <fieldset class="glass">
+    <h1>
+        <ins>Computer Beginner, Must pay N5,000 before any of this courses.</ins> 
+    </h1>
+    <table>
+    <tr>
+        <th style="color: yellow;">COURSES</th>
+        <th style="color: yellow;">DURATION</th>
+        <th style="color: yellow;">PRICE</th>
+        <th style="color: yellow;">OPTION</th>
+    </tr>
+    <tr>
+        <td><li>Computer Software</li></td>
+        <td>2months</td>
+        <td>₦20,000</td>
+        <td><input type="checkbox" name="Course" id="Computer software" value="Computer software"></td>
+    </tr>
+    <tr>
+        <td><li>Computer Hardware</li></td>
+        <td>2months</td>
+        <td>₦40,000</td>
+        <td><input type="checkbox" name="Course" id="Computer hardware" value="Computer hardware"></td>
+    </tr>
+    <tr>
+        <td><li>Web Developer</li></td>
+        <td>2month</td>
+        <td>₦30,000</td>
+        <td><input type="checkbox" name="Course" id="Web Developer" value="Web Developer"></td>
+    </tr>
+    <tr>
+        <td><li>Software Developer</li></td>
+        <td>2month</td>
+        <td>₦30,000</td>
+        <td><input type="checkbox" name="Course" id="Software Developer" value="Software Developer"></td>
+    </tr>
+    <tr>
+        <td><li>Syber Security</li></td>
+        <td>2month</td>
+        <td>₦30,000</td>
+        <td><input type="checkbox" name="Course" id="Syber Security" value="Syber Security"></td>
+    </tr>
+    <tr>
+        <td><li>Networking</li></td>
+        <td>1month</td>
+        <td>₦15,000</td>
+        <td><input type="checkbox" name="Course" id="Networking" value="Networking"></td>
+    </tr>
+    <tr>
+        <td><li>Graphics Design</li></td>
+        <td>1month</td>
+        <td>₦30,000</td>
+        <td><input type="checkbox" name="Course" id="Graphics Design" value="Graphics Design"></td>
+    </tr>
+    <tr>
+        <td><li>CCTV Installation</li></td>
+        <td>1onth</td>
+        <td>₦20,000</td>
+        <td><input type="checkbox" name="Course" id="CCTV Installation" value="CCTV Installation"></td>
+    </tr>
+    <tr>
+        <td><li>Printer Repair</li></td>
+        <td>1month</td>
+        <td>₦30,000</td>
+        <td><input type="checkbox" name="Course" id="Printer Repair" value="Printer Repair"></td>
+    </tr>
+    <tr>
+        <td><li>Photoshop</li></td>
+        <td>1month</td>
+        <td>₦40,000</td>
+        <td><input type="checkbox" name="Course" id="Photoshop" value="Photoshop"></td>
+    </tr>
+    </table><br>
+    <div>
+    <br><br>
+        <label for="Eductional details"><mark id="rcorner">EDUCATIONAL DETAILS:-</mark></label><br>
+    <br><br>
+    <div>
+        <label for="date" style="color: yellow;">Start:</label><br>
+        <input type="date" name="start" id="date">
+    </div>
+    <br>
+    <div>
+        <label for="date" style="color: yellow;">End:</label><br>
+        <input type="date" name="End" id="date">
+    </div>
+    <br>
+    <div>
+        1.<input type="text" name="1." size="100"><br><br>
+        2.<input type="text" name="2." size="100"><br><br>
+        3.<input type="text" name="3." size="100"><br><br>
+        4.<input type="text" name="4." size="100"><br><br>
+    </div>
+    <div class="button">
+        <button id="rcorners" style="background-color:  rgba(3, 65, 275, 0.993);">
+            <a href="index600.html" style="font-size: 20px; color: yellow;">NEXT</a>
+        </button>
+    </div>
+     </fieldset>
+  </form>
+</body>
+</html>

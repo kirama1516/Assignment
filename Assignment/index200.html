@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page3</title>
+</head>
+<style>
+    b{
+        font-family: Verdana, 
+        Geneva, Tahoma, sans-serif;
+        font-size: 180%;
+        color: darkred;
+    }
+    .button{
+        float: right;
+    }
+    body{
+        background-image: url('./images/IT.jpg');
+        padding: 15px;
+    }
+    .glass{
+        text-align: center;
+        height: 620px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 32px;
+    }
+    #rcorners{
+        border-radius: 50px 50px 50px 50px;
+    }
+    h3{
+       color: yellow;
+    }
+</style>
+<body>
+    <fieldset class="glass">
+         <div>
+            <div>
+                <h1 style="text-shadow: 8px 6px black;">
+                    <b>LOGIN</b>
+                </h1>
+                <h3>If you have an account, please login.</h3>
+                <form action="result2.html" method="GET" enctype="multipart/form-data"> 
+                    <div>
+                        <p>
+                        <label style="color: yellow;">EMAIL ADDRESS:</label><br>
+                        <input type="email" name="email address" id="" placeholder="Enter Email Address" size="50px" autofocus autocomplete required>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                        <label class="block text-gray-700" style="color: yellow;">PASSWORD:</label><br>
+                        <input type="password" name="password" id="" placeholder="Enter Password" minlength="6" required>
+                        </p>
+                    </div>
+                    <div>
+                        <a href="index1000.html" style="color: yellow;">Forgot Password?</a>
+                    </div>
+                          <br>
+                    <button style="background-color:  rgba(3, 65, 275, 0.993); color: yellow;" type="submit">Log In</button>
+                </form>
+                <div>
+                    <hr/>
+                    <p style="color: yellow; text-align: center; font-size: 15px;">OR</p>
+                    <hr/>
+                </div>
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="w-6 h-6" viewBox="0 0 48 48">
+                      <defs>
+                        <path id="a" d="m44.5 28H24v8.5h11.8c34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13s3.1 0 5.9 1.1 8.1 2.916.4-6.4C34.6 4.1  29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-22 0-1.3-.2-2.7-.5-4z"/>
+                      </defs>
+                      <clipPath id="b"><use xlink:href="#a" overflow="visible"/></clipPath>
+                      <path clip-path="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z"/>
+                      <path clip-path="url(#b)" fill="#EA4335" d="M0 11l17 13 7-6.1L48 14V0H0z"/>
+                      <path clip-path="url(#b)" fill="#34A853" d="M0 37130-23 7.9 1L48 0v48H0z"/>
+                      <path clip-path="url(#b)" fill="#4285F4" d="M48 48L17 24l-3 35-10z"/>
+                    </svg>
+                    <span>Login with Google</span>
+                </button>
+                <div>
+                    <h3 style="text-align: center;">If you don't have an account...</h3>
+                    <div class="button">
+                        <button id="rcorners" style="background-color:  rgba(3, 65, 275, 0.993);">
+                            <a href="index300.html" style="font-size: 20px; color: yellow;">Register</a>
+                        </button>
+                    </div>
+                </div>
+         </div>
+        </fieldset>
+</body>
+</html>

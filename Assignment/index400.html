@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-compatible" content="ie=edge">
+   <title>page4</title>
+   <style>
+
+    header{
+        background-color: rgba(3, 65, 275, 0.993);
+        color: rgb(118, 8, 8);
+        text-align: center; 
+        padding: 5px;
+        margin: 5px;
+        box-shadow: 10px 10px rgba(0, 0, 0, 0.864);
+    }
+    section,p{
+        width: 350px;
+        height: 50px;
+        float: left;
+        padding: 15px;
+        margin: 10px;
+    }
+    body{
+        background-image: url('./images/IT.jpg');
+        padding: 15px;
+    }
+    p{
+        color: rgb(149, 197, 6);
+        text-align: center;  
+    }
+    h1{
+        margin: 10px 10px 10px 10px;
+        padding: 10px 20% 10px 10px;
+        text-shadow: 10px 8px black;
+    }
+    h2{
+        text-align: center; 
+        font-family: Verdana, 
+        Geneva, Tahoma, sans-serif;
+        font-size: 200%;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 30% 10px 10px;
+        text-shadow: 4px 2px black;
+    }
+    h3{
+        text-align: center; 
+        font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+        font-size: 200%;
+        color: rgb(118, 8, 8);
+        text-shadow: 3px 2px rgba(0, 0, 0, 0.724);
+    }
+    address{
+        text-align: center;
+    }
+    b{
+        font-family: Verdana, 
+        Geneva, Tahoma, sans-serif;
+        font-size: 300%; 
+    }
+    img{
+        padding-left: 10%;
+    }
+    mark{
+        background-color: rgb(127, 21, 21);
+    }
+    .glass{
+        height: 1150px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 32px;
+    }
+    .button{
+            float: right;
+    }
+    #rcorners{
+        border-radius: 50px 50px 50px 50px;
+    }
+   </style> 
+</head>
+<body>
+    <form action="result2.html" method="GET" enctype="multipart/form-data"> 
+        <fieldset class="glass">
+            <header id="rcorners">
+                <img src="images/internet.png" width="230" height="230" style="float: left;">
+                <h1>
+                    <b>KICT</b><sub><i style="color: yellow";>WEBSITE</i></sub>
+                    <h2>
+                       <ins>
+                        KNOW IT ICT
+                       </ins>
+                    </h2>
+                </h1>
+            </header> 
+            <br>
+        <i style="color: yellow;">
+            <address>
+                No. 23 Albarka Plaza,Justice Dahiru Mustapha Avenue Farm Center Kano.<br>
+                Phone No.:08034099090,08095743914,08038933443. Email:knowitict@gmail.com. Google:kict.online.
+            </address>
+        </i>
+        <hr>
+        <div>
+            <h3>
+                <ins>
+                   PERSONAL DETAILS
+                </ins>
+            </h3>
+           </hr>
+            <p>
+              <label for="name">FIRST NAME:</label><br>
+              <input type="text" name="First Name" id="name" required > 
+            </p>
+        </div>
+        <div>
+            <p>
+              <label for="name">MIDDLE NAME:</label><br>
+              <input type="text" name="Middle Name" id="name" required>
+            </p>
+        </div>
+        <div>
+            <p>
+              <label for="name">SURNAME:</label><br>
+              <input type="text" name="Surname Name" id="name" required>
+            </p>
+        </div>
+        <div>
+            <p>
+              <label for="email">EMAIL:</label><br>
+              <input type="email" name="Email" size="40" required>
+            </p>
+        </div>
+        <div>
+            <p>
+              <label for="age">AGE:</label><br>
+              <input type="number" name="Age" id="age">
+            </p>
+        </div>
+        <div>
+            <p>
+              <label for="date">DATE OF BIRTH:</label><br>
+              <input type="date" name="Date" id="date">
+            </p>
+        </div>
+        <div>
+            <p>
+              <label for="nationality">NATIONALITY:</label><br>
+              <input type="text" name="Nationality" id="nationality">
+            </p>
+        </div>
+        <div>
+            <p>
+              <label for="state">STATE:</label><br>
+              <input type="text" name="State" id="state">
+            </p>
+        </div>
+        <div>
+            <p>
+              <label for="lga">LGA:</label><br>
+              <input type="text" name="LGA" id="lga">
+            </p>
+        </div>
+        <div>                               
+            <p>                
+               <label for="Religion">RELIGION</label><br>
+                 <select name="Religion" id="Religion">
+                    <option value="Islam">Islam</option>
+                    <option label="christan" value="christan"></option>
+                 </select>
+            </p>
+        </div>
+        <div>
+            <p>
+              <label for="bio">BIO:</label><br>
+              <textarea id="bio" name="Bio"></textarea >
+            </p>
+        </div>  
+        <div>
+            <p>
+               <label for="file">FILE:</label><br>
+               <input id="file" type="file" name="File">
+            </p>
+        </div>
+        <div>
+            <p>
+               <label for="phone">PHONE NO.:</label><br>
+               <input type="tel" name="Phone No." id="phone">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="address">ADDRESS:</label><br>
+                <textarea id="address" name="Address"></textarea>
+            </p>
+        </div>
+        <div>
+            <p>
+               <label for="url">URL:</label><br>
+               <input type="url" name="URL" id="url">
+            </p>
+        </div>
+        <div>
+            <p>
+               <label for="language">LANGUAGE:</label><br>
+               <select name="language" id="language">
+                 <option label="Fulani" value="Fulani"></option>
+                 <option label="Hausa"  value="Hausa"></option>
+                 <option label="Yaruba"  value="Yaruba"></option>
+                 <option label="Eboyi"  value="Eboyi"></option>
+                 <option label="Nupe"  value="Nupe"></option>
+               </select>
+            </p>
+        </div>
+        <div>
+            <p>
+               <label>
+                 PASSWORD:<br>
+                  <input type="password" name="Password" required>
+               </label>
+            </p>
+        </div>
+        <div>
+            <p>
+               <label>
+                 COMFIRM PASSWORD:<br>
+                  <input type="password" name="Password" required>
+               </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="occupation">OCCUPATION:</label><br>
+                <input type="text" name="Occupation" id="occupation">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="place of occupation">PLACE OF OCCUPATION</label><br>
+                <input type="text" name="Place of occupation" id="place of occupation" size="40">
+            </p>
+        </div>
+        <div> 
+            <p>
+                <label for="male">MALE</label>
+                <input type="radio" name="Gender" id="male" value="male">
+               <label for="female">FEMALE</label>
+               <input type="radio" name="Gender" id="female" value="female">
+            </p>
+        </div>
+        <div class="button">
+            <button id="rcorners" style="background-color:  rgba(3, 65, 275, 0.993);">
+                <a href="index500.html" style="font-size: 20px; color: yellow;">NEXT</a>
+            </button>
+</fieldset>
+    </form>
+</body>
+</html>   
